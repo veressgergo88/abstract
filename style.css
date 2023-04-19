@@ -30,3 +30,38 @@ img, picture, svg, video {
     
 }
 /* --- Variables --- */
+body {
+    height: 100vh;
+    background-color: darkblue;
+}
+
+#navbar {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 48px;
+    font-size: 20px;
+}
+
+.navbarblocks {
+    display: flex;
+}
+
+.navbarblocks:first-child div {
+    padding: 0 10px;
+}
+
+.navbarblocks:first-child div:first-child{
+    border-right: 1px solid #fff;
+}
+
+#header {
+    background-color: #dadbf1;
+}
+
+#footer {
+    background-color: #000000;
+    color: #fff;
+}

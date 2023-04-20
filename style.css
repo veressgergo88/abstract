@@ -39,22 +39,24 @@ body {
     background-color: #000000;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px 48px;
     font-size: 20px;
 }
 
-.navbarblocks {
+#navbar ul {
     display: flex;
+    justify-content: space-around;
 }
 
-.navbarblocks:first-child div {
-    padding: 0 10px;
+#navbar ul li {
+    list-style: none;
 }
 
-.navbarblocks:first-child div:first-child{
-    border-right: 1px solid #fff;
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    
 }
 
 #header {

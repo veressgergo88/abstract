@@ -35,18 +35,32 @@ body {
     background-color: darkblue;
 }
 
+/*NAV*/
 #navbar {
     background-color: #000000;
     color: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 20px;
 }
 
+/*navbar-left*/
+#navbar-left {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 10em;
+}
+
+img {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
 #navbar ul {
     display: flex;
-    justify-content: space-around;
 }
 
 #navbar ul li {
@@ -56,14 +70,110 @@ body {
 #navbar ul li a {
     text-decoration: none;
     color: #fff;
-    
+    padding:0 5px;
 }
+
+span {
+    border-right:1px solid #fff;
+    padding-right:10px;
+}
+
+/*nav-buttons*/
+#nav-buttons {
+    margin: 10px 10em 10px 0;
+}
+
+.nav-btn {
+    margin:0 5px;
+}
+
+.submit {
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: inherit;
+    color:#fff
+}
+
+.signin {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c5fd5;
+    color:#fff
+}
+
+/*header*/
 
 #header {
     background-color: #dadbf1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10em 0;
 }
 
+h1 {
+    font-size: 60px;
+    padding:10px;
+}
+
+input {
+    width: 40em;
+    padding: 1em 1em;
+    border: 2px solid #000000;
+}
+
+/*center-container*/
+
+
+/*footer*/
 #footer {
     background-color: #000000;
     color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 15em;
+}
+
+#footer h3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#footer h4 {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#footer p {
+    font-size: 12px;
+}
+
+#footer ul {
+    margin-top: 1em;
+}
+
+#footer li {
+    list-style: none;
+}
+
+#footer li a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-boxes {
+    margin-top: 1.5em;
+}
+
+.footer-boxes:last-child {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+
+#footer img {
+    margin-bottom: 0.8em;
 }
